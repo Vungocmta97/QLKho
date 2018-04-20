@@ -1,0 +1,91 @@
+C:\Users\Hoang\Desktop\Kho hang\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe.config
+C:\Users\Hoang\Desktop\Kho hang\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe
+C:\Users\Hoang\Desktop\Kho hang\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.pdb
+C:\Users\Hoang\Desktop\Kho hang\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csprojResolveAssemblyReference.cache
+C:\Users\Hoang\Desktop\Kho hang\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.Properties.Resources.resources
+C:\Users\Hoang\Desktop\Kho hang\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frmNhaCC.resources
+C:\Users\Hoang\Desktop\Kho hang\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.GenerateResource.Cache
+C:\Users\Hoang\Desktop\Kho hang\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.exe
+C:\Users\Hoang\Desktop\Kho hang\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.pdb
+C:\Users\Hoang\Desktop\Kho hang\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frmThongKeHangHoa.resources
+C:\Users\Hoang\Desktop\Kho hang\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frmThongKeNhapHang.resources
+C:\Users\Hoang\Desktop\Kho hang\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frmThongKeXuatHang.resources
+F:\đại học năm 3\KÌ 2\Thực tập nhóm_TH13\Dự Án Nhóm\Kho\Quản lý kho\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe.config
+F:\đại học năm 3\KÌ 2\Thực tập nhóm_TH13\Dự Án Nhóm\Kho\Quản lý kho\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe
+F:\đại học năm 3\KÌ 2\Thực tập nhóm_TH13\Dự Án Nhóm\Kho\Quản lý kho\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.pdb
+F:\đại học năm 3\KÌ 2\Thực tập nhóm_TH13\Dự Án Nhóm\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.Properties.Resources.resources
+F:\đại học năm 3\KÌ 2\Thực tập nhóm_TH13\Dự Án Nhóm\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frmNhaCC.resources
+F:\đại học năm 3\KÌ 2\Thực tập nhóm_TH13\Dự Án Nhóm\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frmPhieuXuat.resources
+F:\đại học năm 3\KÌ 2\Thực tập nhóm_TH13\Dự Án Nhóm\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frmThongKeHangHoa.resources
+F:\đại học năm 3\KÌ 2\Thực tập nhóm_TH13\Dự Án Nhóm\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frmThongKeXuatHang.resources
+F:\đại học năm 3\KÌ 2\Thực tập nhóm_TH13\Dự Án Nhóm\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frmThongKeNhapHang.resources
+F:\đại học năm 3\KÌ 2\Thực tập nhóm_TH13\Dự Án Nhóm\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frm_KhachHang.resources
+F:\đại học năm 3\KÌ 2\Thực tập nhóm_TH13\Dự Án Nhóm\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frm_QLNV.resources
+F:\đại học năm 3\KÌ 2\Thực tập nhóm_TH13\Dự Án Nhóm\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.GenerateResource.Cache
+F:\đại học năm 3\KÌ 2\Thực tập nhóm_TH13\Dự Án Nhóm\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.exe
+F:\đại học năm 3\KÌ 2\Thực tập nhóm_TH13\Dự Án Nhóm\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.pdb
+F:\đại học năm 3\KÌ 2\Thực tập nhóm_TH13\Dự Án Nhóm\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csprojResolveAssemblyReference.cache
+E:\đại học năm 3\KÌ 2\Thực tập nhóm_TH13\Dự Án Nhóm\Kho\Quản lý kho\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe.config
+E:\đại học năm 3\KÌ 2\Thực tập nhóm_TH13\Dự Án Nhóm\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.exe
+E:\đại học năm 3\KÌ 2\Thực tập nhóm_TH13\Dự Án Nhóm\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.pdb
+E:\đại học năm 3\KÌ 2\Thực tập nhóm_TH13\Dự Án Nhóm\Kho\Quản lý kho\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe
+E:\đại học năm 3\KÌ 2\Thực tập nhóm_TH13\Dự Án Nhóm\Kho\Quản lý kho\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.pdb
+E:\đại học năm 3\KÌ 2\Thực tập nhóm_TH13\Dự Án Nhóm\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csprojResolveAssemblyReference.cache
+E:\đại học năm 3\KÌ 2\Thực tập nhóm_TH13\Dự Án Nhóm\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.Properties.Resources.resources
+E:\đại học năm 3\KÌ 2\Thực tập nhóm_TH13\Dự Án Nhóm\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frmNhaCC.resources
+E:\đại học năm 3\KÌ 2\Thực tập nhóm_TH13\Dự Án Nhóm\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frmPhieuXuat.resources
+E:\đại học năm 3\KÌ 2\Thực tập nhóm_TH13\Dự Án Nhóm\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frmThongKeHangHoa.resources
+E:\đại học năm 3\KÌ 2\Thực tập nhóm_TH13\Dự Án Nhóm\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frmThongKeXuatHang.resources
+E:\đại học năm 3\KÌ 2\Thực tập nhóm_TH13\Dự Án Nhóm\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frmThongKeNhapHang.resources
+E:\đại học năm 3\KÌ 2\Thực tập nhóm_TH13\Dự Án Nhóm\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frm_KhachHang.resources
+E:\đại học năm 3\KÌ 2\Thực tập nhóm_TH13\Dự Án Nhóm\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frm_QLNV.resources
+E:\đại học năm 3\KÌ 2\Thực tập nhóm_TH13\Dự Án Nhóm\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.GenerateResource.Cache
+E:\Quản Lý Bán hàng\Kho\Quản lý kho\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe.config
+E:\Quản Lý Bán hàng\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.exe
+E:\Quản Lý Bán hàng\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.pdb
+E:\Quản Lý Bán hàng\Kho\Quản lý kho\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe
+E:\Quản Lý Bán hàng\Kho\Quản lý kho\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.pdb
+E:\Quản Lý Bán hàng\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csprojResolveAssemblyReference.cache
+E:\Quản Lý Bán hàng\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.Properties.Resources.resources
+E:\Quản Lý Bán hàng\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frmNhaCC.resources
+E:\Quản Lý Bán hàng\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frmPhieuXuat.resources
+E:\Quản Lý Bán hàng\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frmThongKeHangHoa.resources
+E:\Quản Lý Bán hàng\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frmThongKeXuatHang.resources
+E:\Quản Lý Bán hàng\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frmThongKeNhapHang.resources
+E:\Quản Lý Bán hàng\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frm_KhachHang.resources
+E:\Quản Lý Bán hàng\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frm_QLNV.resources
+E:\Quản Lý Bán hàng\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\Kho\Quản lý kho\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe.config
+C:\Users\Admin\Desktop\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.exe
+C:\Users\Admin\Desktop\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.pdb
+C:\Users\Admin\Desktop\Kho\Quản lý kho\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe
+C:\Users\Admin\Desktop\Kho\Quản lý kho\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.pdb
+C:\Users\Admin\Desktop\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.Properties.Resources.resources
+C:\Users\Admin\Desktop\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frmLogin.resources
+C:\Users\Admin\Desktop\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frmMenu.resources
+C:\Users\Admin\Desktop\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frmNhaCC.resources
+C:\Users\Admin\Desktop\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frmPhieuXuat.resources
+C:\Users\Admin\Desktop\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frmThongKeHangHoa.resources
+C:\Users\Admin\Desktop\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frmThongKeXuatHang.resources
+C:\Users\Admin\Desktop\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frmThongKeNhapHang.resources
+C:\Users\Admin\Desktop\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frm_KhachHang.resources
+C:\Users\Admin\Desktop\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frm_QLNV.resources
+C:\Users\Admin\Desktop\Kho\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.GenerateResource.Cache
+E:\Nhom17\Kho_daxong\Quản lý kho\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe.config
+E:\Nhom17\Kho_daxong\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.exe
+E:\Nhom17\Kho_daxong\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.pdb
+E:\Nhom17\Kho_daxong\Quản lý kho\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.exe
+E:\Nhom17\Kho_daxong\Quản lý kho\QuanLyKho\QuanLyKho\bin\Debug\QuanLyKho.pdb
+E:\Nhom17\Kho_daxong\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csprojResolveAssemblyReference.cache
+E:\Nhom17\Kho_daxong\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.Properties.Resources.resources
+E:\Nhom17\Kho_daxong\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frmLogin.resources
+E:\Nhom17\Kho_daxong\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frmMenu.resources
+E:\Nhom17\Kho_daxong\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frmNhaCC.resources
+E:\Nhom17\Kho_daxong\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frmPhieuXuat.resources
+E:\Nhom17\Kho_daxong\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frmThongKeHangHoa.resources
+E:\Nhom17\Kho_daxong\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frmThongKeXuatHang.resources
+E:\Nhom17\Kho_daxong\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frmThongKeNhapHang.resources
+E:\Nhom17\Kho_daxong\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frm_KhachHang.resources
+E:\Nhom17\Kho_daxong\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.View.frm_QLNV.resources
+E:\Nhom17\Kho_daxong\Quản lý kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.GenerateResource.Cache
