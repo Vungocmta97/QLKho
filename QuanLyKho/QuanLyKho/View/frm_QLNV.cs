@@ -51,6 +51,41 @@ namespace QuanLyKho.View
             dt_ngaysinh.DataBindings.Add("Text", dgv_NhanVien.DataSource, "NgaySinh");
         }
 
+        public void ReadOnly(bool e)
+        {
+            txt_diachi.ReadOnly = e;
+            txt_sdt.ReadOnly = e;
+            txt_manv.ReadOnly = e;
+            txt_tennv.ReadOnly = e;
+            cb_gioitinh.Enabled = !e;
+            dt_ngaysinh.Enabled = !e;
+
+
+        }
+        void ganDuLieu(NhanVienObjTH Obj)
+        {
+            Obj.manv = txt_manv.Text.Trim(); ;
+            Obj.tennv = txt_tennv.Text.Trim();
+            Obj.ngaysinh = dt_ngaysinh.Text.Trim();
+            Obj.diachi = txt_diachi.Text.Trim();
+            Obj.gioitinh = cb_gioitinh.Text.Trim();
+            Obj.sdt = txt_sdt.Text.Trim();
+
+        }
+        public void ClearDt()
+        {
+            txt_manv.Text = "";
+            txt_tennv.Text = "";
+            txt_diachi.Text = "";
+            txt_sdt.Text = "";
+
+        }
+        private void txt_sdt_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!Char.IsDigit(e.KeyChar) && !Char.IsControl(e.KeyChar))
+                e.Handled = true;
+        }
+
 
     }
 }
