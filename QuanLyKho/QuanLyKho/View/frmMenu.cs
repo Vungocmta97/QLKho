@@ -17,6 +17,39 @@ namespace QuanLyKho.View
             InitializeComponent();
         }
 
-     
+        private void btnKH_Click(object sender, EventArgs e)
+        {
+            new frm_KhachHang().ShowDialog();
+        }
+
+        private void btnNV_Click(object sender, EventArgs e)
+        {
+            new frm_QLNV().ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new frmNhaCC().ShowDialog();
+        }
+
+        private void btnPX_Click(object sender, EventArgs e)
+        {
+            new frmPhieuXuat().ShowDialog();
+        }
+
+        private void btnTKHH_Click(object sender, EventArgs e)
+        {
+            new frmThongKeHangHoa().ShowDialog();
+        }
+
+        private void btnTKNH_Click(object sender, EventArgs e)
+        {
+            new frmThongKeNhapHang().ShowDialog();
+        }
+
+        private void btnTKXH_Click(object sender, EventArgs e)
+        {
+            new frmThongKeXuatHang().ShowDialog();
+        }
     }
 }
