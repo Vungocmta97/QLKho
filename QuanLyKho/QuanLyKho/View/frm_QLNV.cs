@@ -86,6 +86,92 @@ namespace QuanLyKho.View
                 e.Handled = true;
         }
 
+        private void dgv_NhanVien_RowPrePaint_1(object sender, DataGridViewRowPrePaintEventArgs e)
+        {
+            dgv_NhanVien.Rows[e.RowIndex].Cells["STT"].Value = e.RowIndex + 1;
+        }
+
+        private void btn_Them_Click(object sender, EventArgs e)
+        {
+            fl = 0;
+            txt_TimKiem.ReadOnly = true;
+            ClearDt();
+            btn_Sua.Enabled = false;
+            btn_Xoa.Enabled = false;
+            ReadOnly(false);
+            btn_Them.Enabled = false;
+            btn_Huy.Enabled = true;
+            btn_Luu.Enabled = true;
+
+            db = nvCtrl.GetData();
+            string a = "";
+            if (db.Rows.Count <= 0)
+            {
+                a = "NV01";
+            }
+            else
+            {
+                int k;
+                a = "NV";
+                k = int.Parse(db.Rows[db.Rows.Count - 1][0].ToString().Trim().Substring(2, 2));
+                k = k + 1;
+                string tam = k.ToString();
+                for (int i = 0; i < (2 - tam.Length); i++)
+                {
+                    a += "0";
+                }
+                a = a + k.ToString();
+            }
+            txt_manv.Text = a;
+            this.txt_tennv.Focus();
+
+            string[] s = { "Nam", "Nữ" };
+            cb_gioitinh.DataSource = s;
+            cb_gioitinh.DropDownStyle = ComboBoxStyle.DropDownList;
+        }
+
+        private void btn_Luu_Click(object sender, EventArgs e)
+        {
+            if (txt_sdt.Text == "" || txt_diachi.Text == "" || txt_manv.Text == "" || txt_tennv.Text == "")
+            {
+                MessageBox.Show("Vui Lòng Nhập Đầy Đủ Thông Tin !");
+                txt_tennv.Focus();
+            }
+            else
+            {
+
+                ganDuLieu(nvObj);
+                if (fl == 0)
+                {
+
+                    if (nvCtrl.addData(nvObj))
+                    {
+
+                        MessageBox.Show("Thêm thàng công !", "Thông Báo ", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        frm_QLNV_Load(sender, e);
+                    }
+
+                    else
+                        MessageBox.Show("Thêm mới không thành công !", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    frm_QLNV_Load(sender, e);
+                }
+                else
+                {
+                    if (nvCtrl.upData(nvObj))
+                    {
+
+                        MessageBox.Show("Sửa thàng công !", "Thông Báo ", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        frm_QLNV_Load(sender, e);
+                    }
+
+                    else
+
+                        MessageBox.Show("Sửa không thành công !", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    frm_QLNV_Load(sender, e);
+                }
+            }
+        }
+
 
     }
 }
