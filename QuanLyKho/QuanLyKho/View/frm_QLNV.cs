@@ -172,6 +172,65 @@ namespace QuanLyKho.View
             }
         }
 
+        private void btn_Sua_Click(object sender, EventArgs e)
+        {
+            ReadOnly(false);
+            fl = 1;
+            txt_manv.ReadOnly = true;
+            string[] s = { "Nam", "Nữ" };
+            cb_gioitinh.DataSource = s;
+            cb_gioitinh.DropDownStyle = ComboBoxStyle.DropDownList;
+            dgv_NhanVien.Enabled = false;
+            txt_tennv.Focus();
+            btn_Them.Enabled = false;
+            btn_Sua.Enabled = false;
+            btn_Xoa.Enabled = false;
+            txt_TimKiem.ReadOnly = true;
+
+        }
+
+        private void btn_Xoa_Click(object sender, EventArgs e)
+        {
+            DialogResult dr = MessageBox.Show("Bạn có chắc chắn xóa không ? ", "Xác nhận ", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dr == DialogResult.Yes)
+            {
+                if (nvCtrl.delData(txt_manv.Text.Trim()))
+                {
+                    MessageBox.Show("Xóa thàng công ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                }
+                frm_QLNV_Load(sender, e);
+            }
+            else
+                return;
+        }
+
+        private void btn_Huy_Click(object sender, EventArgs e)
+        {
+            frm_QLNV_Load(sender, e);
+        }
+
+        private void btn_TroVe_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void txt_TimKiem_TextChanged(object sender, EventArgs e)
+        {
+
+            string str = string.Format("TenNV like '%{0}%'", txt_TimKiem.Text);
+
+
+            db.DefaultView.RowFilter = str;
+        }
+
+        private void btn_TimKiem_Click(object sender, EventArgs e)
+        {
+            txt_TimKiem.Text = " ";
+            this.txt_TimKiem.Focus();
+        }
+
+
 
     }
 }
