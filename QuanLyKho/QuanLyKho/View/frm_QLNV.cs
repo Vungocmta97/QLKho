@@ -230,6 +230,85 @@ namespace QuanLyKho.View
             this.txt_TimKiem.Focus();
         }
 
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_sdt_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_diachi_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cb_gioitinh_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dt_ngaysinh_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_tennv_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_manv_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dgv_NhanVien_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void txt_TimKiem_Click(object sender, EventArgs e)
+        {
+            txt_TimKiem.Text = "";
+        }
 
 
     }
