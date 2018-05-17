@@ -62,6 +62,74 @@ namespace QuanLyKho.View
 
         }
 
+        void ganDuLieu(KhachHangObjTH Obj)
+        {
+            Obj.makh = txt_makh.Text.Trim(); ;
+            Obj.tenkh = txt_tenkh.Text.Trim();
+
+            Obj.diachi = txt_diachi.Text.Trim();
+            Obj.kieuthanhtoan = cb_kieuthanhtoan.Text.Trim();
+            Obj.sdt = txt_sdt.Text.Trim();
+
+        }
+        public void ClearDt()
+        {
+            txt_makh.Text = "";
+            txt_tenkh.Text = "";
+            txt_diachi.Text = "";
+            txt_sdt.Text = "";
+
+
+        }
+        private void txt_sdt_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!Char.IsDigit(e.KeyChar) && !Char.IsControl(e.KeyChar))
+                e.Handled = true;
+        }
+
+        private void dgv_NhanVien_RowPrePaint_1(object sender, DataGridViewRowPrePaintEventArgs e)
+        {
+            dgv_KhachHang.Rows[e.RowIndex].Cells["STT"].Value = e.RowIndex + 1;
+        }
+
+        private void btn_Them_Click(object sender, EventArgs e)
+        {
+            fl = 0;
+            txt_TimKiem.ReadOnly = true;
+            ClearDt();
+            btn_Sua.Enabled = false;
+            btn_Xoa.Enabled = false;
+            ReadOnly(false);
+            btn_Them.Enabled = false;
+            btn_Huy.Enabled = true;
+            btn_Luu.Enabled = true;
+
+            db = khCtrl.GetData();
+            string a = "";
+            if (db.Rows.Count <= 0)
+            {
+                a = "KH01";
+            }
+            else
+            {
+                int k;
+                a = "KH";
+                k = int.Parse(db.Rows[db.Rows.Count - 1][0].ToString().Trim().Substring(2, 2));
+                k = k + 1;
+                string tam = k.ToString();
+                for (int i = 0; i < (2 - tam.Length); i++)
+                {
+                    a += "0";
+                }
+                a = a + k.ToString();
+            }
+            txt_makh.Text = a;
+            this.txt_tenkh.Focus();
+
+            string[] s = { "Thẻ", "Tiền Mặt" };
+            cb_kieuthanhtoan.DataSource = s;
+            cb_kieuthanhtoan.DropDownStyle = ComboBoxStyle.DropDownList;
+        }
 
     }
 
