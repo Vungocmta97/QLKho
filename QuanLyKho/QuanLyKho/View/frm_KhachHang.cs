@@ -131,6 +131,64 @@ namespace QuanLyKho.View
             cb_kieuthanhtoan.DropDownStyle = ComboBoxStyle.DropDownList;
         }
 
+        private void btn_Luu_Click(object sender, EventArgs e)
+        {
+            if (txt_sdt.Text == "" || txt_diachi.Text == "" || txt_makh.Text == "" || txt_tenkh.Text == "")
+            {
+                MessageBox.Show("Vui Lòng Nhập Đầy Đủ Thông Tin !");
+                txt_tenkh.Focus();
+            }
+            else
+            {
+
+                ganDuLieu(khObj);
+                if (fl == 0)
+                {
+
+                    if (khCtrl.addData(khObj))
+                    {
+
+                        MessageBox.Show("Thêm thàng công !", "Thông Báo ", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        frm_KhachHang_Load(sender, e);
+                    }
+
+                    else
+                        MessageBox.Show("Thêm mới không thành công !", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    frm_KhachHang_Load(sender, e);
+                }
+                else
+                {
+                    if (khCtrl.upData(khObj))
+                    {
+
+                        MessageBox.Show("Sửa thàng công !", "Thông Báo ", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        frm_KhachHang_Load(sender, e);
+                    }
+
+                    else
+
+                        MessageBox.Show("Sửa không thành công !", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    frm_KhachHang_Load(sender, e);
+                }
+            }
+        }
+
+        private void btn_Sua_Click(object sender, EventArgs e)
+        {
+            ReadOnly(false);
+            fl = 1;
+            txt_makh.ReadOnly = true;
+            string[] s = { "Thẻ", "Tiền Mặt" };
+            cb_kieuthanhtoan.DataSource = s;
+            cb_kieuthanhtoan.DropDownStyle = ComboBoxStyle.DropDownList;
+            dgv_KhachHang.Enabled = false;
+            txt_tenkh.Focus();
+            btn_Them.Enabled = false;
+            btn_Sua.Enabled = false;
+            btn_Xoa.Enabled = false;
+            txt_TimKiem.ReadOnly = true;
+        }
+
     }
 
 
