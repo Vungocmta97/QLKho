@@ -189,6 +189,52 @@ namespace QuanLyKho.View
             txt_TimKiem.ReadOnly = true;
         }
 
+        private void btn_Xoa_Click(object sender, EventArgs e)
+        {
+            DialogResult dr = MessageBox.Show("Bạn có chắc chắn xóa không ? ", "Xác nhận ", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dr == DialogResult.Yes)
+            {
+                if (khCtrl.delData(txt_makh.Text.Trim()))
+                {
+                    MessageBox.Show("Xóa thàng công ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                }
+                frm_KhachHang_Load(sender, e);
+            }
+            else
+                return;
+        }
+
+        private void txt_TimKiem_TextChanged(object sender, EventArgs e)
+        {
+
+            string str = string.Format("TenKH like '%{0}%'", txt_TimKiem.Text);
+
+
+            db.DefaultView.RowFilter = str;
+        }
+
+        private void btn_TimKiem_Click(object sender, EventArgs e)
+        {
+            txt_TimKiem.Text = " ";
+            this.txt_TimKiem.Focus();
+        }
+
+        private void btn_Huy_Click(object sender, EventArgs e)
+        {
+            frm_KhachHang_Load(sender, e);
+        }
+
+        private void btn_TroVe_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void txt_TimKiem_Click(object sender, EventArgs e)
+        {
+            txt_TimKiem.Text = "";
+        }
+
     }
 
 
